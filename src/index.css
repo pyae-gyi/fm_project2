@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'YoungSerif'; /* Replace with the actual font name */
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+  }
+
+  @font-face {
+    font-family: 'outfit-regular'; /* Replace with the actual font name */
+    src: url('../assets/fonts/outfit/static/Outfit-Light.ttf') format('truetype'); /* Adjust the path and format as needed */
+  }
+
+.font-YoungSerif {
+    font-family: 'YoungSerif';
+}
+
+body {
+    font-family: 'outfit-regular';
+}
