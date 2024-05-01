@@ -14,7 +14,7 @@ export default function App() {
           />
         </div>
         <div className="max-md:px-6 space-y-6 py-6">
-          <h2 className="text-5xl font-YoungSerif line max-md:leading-relaxed">
+          <h2 className="text-4xl md:text-5xl font-YoungSerif line max-md:leading-snug">
             Simple Omlet Recipe
           </h2>
           <p>
